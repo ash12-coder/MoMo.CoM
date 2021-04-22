@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+.home_1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-size: cover;
+  padding: 10px;
+}
+.home_1 .heading_1 {
+  font-family: "Limelight", cursive;
+  font-size: 100px;
+  font-weight: 1000;
+}
+.heading_2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: 1000;
+  color: yellow;
+}
+.linkbtn {
+  height: 100px;
+  width: 300px;
+  outline: none;
+  border: 0;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 1000;
+  background-color: burlywood;
+  font-family: "Concert One", cursive;
+  text-align: center;
+  transition: 1s;
+  color: blueviolet;
+  border: 1px solid bisque;
+}
+.linkbtn:hover {
+  background-color: bisque;
+  border: 2px dotted burlywood;
+  color: red;
+}
+
+.home_2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-size: cover;
+  padding: 10px;
+}
+.home_2 .heading_3 {
+  font-family: "Limelight", cursive;
+  font-size: 80px;
+  font-weight: 1000;
+  text-align: center;
+  color: violet;
+}
+.home_2 .home_21 div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home_2 .home_21 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.home_2 .home_21 div img {
+  height: 100%;
+  width: 100%;
+  padding: 2px;
+}
+.home_2 .home_21 div .btns {
+  height: 100%;
+  width: 100%;
+  color: white;
+  border: 3px solid cornflowerblue;
+  background: skyblue;
+  font-weight: 1000;
+  font-family: "Concert One", cursive;
+  transition: 1s;
+}
+.home_3 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-size: cover;
+  padding: 10px;
+  background-image: url("https://img-static.popxo.com/app_photos/images/2684/original/types-of-momos-butter-chicken-momos.jpeg");
+}
+.home_3 .heading_4 {
+  font-family: "Limelight", cursive;
+  font-size: 80px;
+  font-weight: 1000;
+  color: orangered;
+}
+.home_3 .heading_5 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+  color: blueviolet;
+}
+.home_3 .btns {
+  height: 50px;
+  width: 300px;
+  color: white;
+  border: 3px solid cornflowerblue;
+  background: skyblue;
+  font-weight: 1000;
+  font-family: "Concert One", cursive;
+  transition: 1s;
+  font-size: 30px;
+}
+@media screen and (max-width: 584px) {
+  .home_1 {
+    height: 100%;
+  }
+  .home_1 .heading_1 {
+    font-size: 80px;
+  }
+
+  .heading_2 {
+    font-size: 50px;
+  }
+  .linkbtn {
+    height: 80px;
+    width: 300px;
+  }
+  .home_2 {
+    height: 100%;
+  }
+  .home_2 .heading_3 {
+    font-family: "Limelight", cursive;
+    font-size: 60px;
+    font-weight: 1000;
+    text-align: center;
+    color: violet;
+  }
+  .home_2 .home_21 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .home_2 .home_21 div img {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+  }
+  .home_2 .home_21 div .btns {
+    height: 50px;
+    width: 300px;
+  }
+  .home_3 {
+    height: 100%;
+  }
+}

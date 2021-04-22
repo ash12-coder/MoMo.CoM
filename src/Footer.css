@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&family=Righteous&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+.footer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: center;
+}
+.footer_1 p {
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+  font-weight: 900;
+  text-shadow: 2px -2px 5px white;
+  color: orange;
+  text-decoration: none;
+}
+.footer_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer_2 a {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 584px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer_2 {
+    flex-direction: column;
+  }
+}
